@@ -1,18 +1,24 @@
 {
     "name": "tapi",
     "version": "1.0.0",
-    "main": "index.js",
+    "main": "routes/index.js",
     "type": "module",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "nodemon index.js"
+        "start": "nodemon routes/index.js",
+        "startGrpc": "cross-env GRPC_VERBOSITY=DEBUG GRPC_TRACE=all nodemon ./grpc/server.js"
     },
     "author": "",
     "license": "ISC",
     "description": "",
     "dependencies": {
         "@faker-js/faker": "^9.0.3",
+        "@grpc/grpc-js": "^1.12.2",
+        "@grpc/proto-loader": "^0.7.13",
         "apollo-server": "^3.13.0",
+        "apollo-server-express": "^3.13.0",
+        "cors": "^2.8.5",
+        "cross-env": "^7.0.3",
         "express": "^4.21.1",
         "graphql": "^16.9.0",
         "nodemon": "^3.1.7"

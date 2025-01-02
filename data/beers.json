@@ -1,803 +1,160 @@
-[
+{
+  "piwka": [
     {
-      "beer": {
-        "id": 1,
-        "details": {
-          "name": "Sierra Nevada Pale Ale",
-          "attributes": {
-            "type": "Pale Ale",
-            "alcohol": 5.6,
-            "flavors": [
-              "Citrus",
-              "Floral",
-              "Hoppy"
-            ]
-          },
-          "origin": {
-            "nationality": "American"
-          }
-        }
+      "id": 1,
+      "name": "Sierra Nevada Pale Ale",
+      "iloscAlkoholu": 5.6,
+      "subName": "Pale Ale",
+      "skladSmaku": {
+        "chmiel": true,
+        "kwiatowy": true,
+        "cytrusowy": true,
+        "smaki": [
+          1,
+          2
+        ]
       }
     },
     {
-      "beer": {
-        "id": 2,
-        "details": {
-          "name": "Guinness Draught",
-          "attributes": {
-            "type": "Stout",
-            "alcohol": 4.2,
-            "flavors": [
-              "Roasty",
-              "Creamy",
-              "Malty"
-            ]
-          },
-          "origin": {
-            "nationality": "Irish"
-          }
-        }
+      "id": 2,
+      "name": "BIR Beer",
+      "iloscAlkoholu": 5,
+      "subName": "Lager",
+      "skladSmaku": {
+        "prażony": true,
+        "kremowy": true,
+        "słodowy": true,
+        "smaki": [
+          3,
+          4
+        ]
       }
     },
     {
-      "beer": {
-        "id": 3,
-        "details": {
-          "name": "Heineken",
-          "attributes": {
-            "type": "Lager",
-            "alcohol": 5.0,
-            "flavors": [
-              "Crisp",
-              "Mild",
-              "Grassy"
-            ]
-          },
-          "origin": {
-            "nationality": "Dutch"
-          }
-        }
+      "id": 3,
+      "name": "Heineken",
+      "iloscAlkoholu": 5,
+      "subName": "Lager",
+      "skladSmaku": {
+        "trawiasty": true,
+        "lekki": true,
+        "łagodny": true,
+        "smaki": [
+          5
+        ]
       }
     },
     {
-      "beer": {
-        "id": 4,
-        "details": {
-          "name": "Leffe Blonde",
-          "attributes": {
-            "type": "Belgian Ale",
-            "alcohol": 6.6,
-            "flavors": [
-              "Fruity",
-              "Spicy",
-              "Smooth"
-            ]
-          },
-          "origin": {
-            "nationality": "Belgian"
-          }
-        }
+      "id": 4,
+      "name": "Leffe Blonde",
+      "iloscAlkoholu": 6.6,
+      "subName": "Belgian Ale",
+      "skladSmaku": {
+        "owocowy": true,
+        "korzenny": true,
+        "gładki": true,
+        "smaki": [
+          6
+        ]
       }
     },
     {
-      "beer": {
-        "id": 5,
-        "details": {
-          "name": "Asahi Super Dry",
-          "attributes": {
-            "type": "Lager",
-            "alcohol": 5.2,
-            "flavors": [
-              "Crisp",
-              "Dry",
-              "Refreshing"
-            ]
-          },
-          "origin": {
-            "nationality": "Japanese"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 6,
-        "details": {
-          "name": "Hoegaarden",
-          "attributes": {
-            "type": "Witbier",
-            "alcohol": 4.9,
-            "flavors": [
-              "Coriander",
-              "Orange Peel",
-              "Spicy"
-            ]
-          },
-          "origin": {
-            "nationality": "Belgian"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 7,
-        "details": {
-          "name": "Pilsner Urquell",
-          "attributes": {
-            "type": "Pilsner",
-            "alcohol": 4.4,
-            "flavors": [
-              "Crisp",
-              "Bitter",
-              "Malty"
-            ]
-          },
-          "origin": {
-            "nationality": "Czech"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 8,
-        "details": {
-          "name": "Corona Extra",
-          "attributes": {
-            "type": "Lager",
-            "alcohol": 4.6,
-            "flavors": [
-              "Light",
-              "Crisp",
-              "Mild"
-            ]
-          },
-          "origin": {
-            "nationality": "Mexican"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 9,
-        "details": {
-          "name": "Paulaner Hefe-Weißbier",
-          "attributes": {
-            "type": "Hefeweizen",
-            "alcohol": 5.5,
-            "flavors": [
-              "Banana",
-              "Clove",
-              "Yeasty"
-            ]
-          },
-          "origin": {
-            "nationality": "German"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 10,
-        "details": {
-          "name": "Carlsberg",
-          "attributes": {
-            "type": "Lager",
-            "alcohol": 5.0,
-            "flavors": [
-              "Smooth",
-              "Grassy",
-              "Mild"
-            ]
-          },
-          "origin": {
-            "nationality": "Danish"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 11,
-        "details": {
-          "name": "Peroni Nastro Azzurro",
-          "attributes": {
-            "type": "Lager",
-            "alcohol": 5.1,
-            "flavors": [
-              "Crisp",
-              "Light",
-              "Mild"
-            ]
-          },
-          "origin": {
-            "nationality": "Italian"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 12,
-        "details": {
-          "name": "Sam Adams Boston Lager",
-          "attributes": {
-            "type": "Lager",
-            "alcohol": 5.0,
-            "flavors": [
-              "Caramel",
-              "Malty",
-              "Smooth"
-            ]
-          },
-          "origin": {
-            "nationality": "American"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 13,
-        "details": {
-          "name": "Stella Artois",
-          "attributes": {
-            "type": "Lager",
-            "alcohol": 5.2,
-            "flavors": [
-              "Crisp",
-              "Bitter",
-              "Mild"
-            ]
-          },
-          "origin": {
-            "nationality": "Belgian"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 14,
-        "details": {
-          "name": "Goose Island IPA",
-          "attributes": {
-            "type": "IPA",
-            "alcohol": 5.9,
-            "flavors": [
-              "Hoppy",
-              "Citrus",
-              "Bitter"
-            ]
-          },
-          "origin": {
-            "nationality": "American"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 15,
-        "details": {
-          "name": "BrewDog Punk IPA",
-          "attributes": {
-            "type": "IPA",
-            "alcohol": 5.6,
-            "flavors": [
-              "Grapefruit",
-              "Pine",
-              "Hoppy"
-            ]
-          },
-          "origin": {
-            "nationality": "Scottish"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 16,
-        "details": {
-          "name": "Modelo Especial",
-          "attributes": {
-            "type": "Lager",
-            "alcohol": 4.4,
-            "flavors": [
-              "Smooth",
-              "Crisp",
-              "Light"
-            ]
-          },
-          "origin": {
-            "nationality": "Mexican"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 17,
-        "details": {
-          "name": "Newcastle Brown Ale",
-          "attributes": {
-            "type": "Brown Ale",
-            "alcohol": 4.7,
-            "flavors": [
-              "Toffee",
-              "Nutty",
-              "Smooth"
-            ]
-          },
-          "origin": {
-            "nationality": "British"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 18,
-        "details": {
-          "name": "Budweiser",
-          "attributes": {
-            "type": "Lager",
-            "alcohol": 5.0,
-            "flavors": [
-              "Light",
-              "Crisp",
-              "Mild"
-            ]
-          },
-          "origin": {
-            "nationality": "American"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 19,
-        "details": {
-          "name": "Kirin Ichiban",
-          "attributes": {
-            "type": "Lager",
-            "alcohol": 5.0,
-            "flavors": [
-              "Crisp",
-              "Dry",
-              "Light"
-            ]
-          },
-          "origin": {
-            "nationality": "Japanese"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 20,
-        "details": {
-          "name": "Beck's",
-          "attributes": {
-            "type": "Pilsner",
-            "alcohol": 5.0,
-            "flavors": [
-              "Crisp",
-              "Bitter",
-              "Mild"
-            ]
-          },
-          "origin": {
-            "nationality": "German"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 21,
-        "details": {
-          "name": "Dos Equis Lager Especial",
-          "attributes": {
-            "type": "Lager",
-            "alcohol": 4.2,
-            "flavors": [
-              "Crisp",
-              "Light",
-              "Refreshing"
-            ]
-          },
-          "origin": {
-            "nationality": "Mexican"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 22,
-        "details": {
-          "name": "Coors Light",
-          "attributes": {
-            "type": "Lager",
-            "alcohol": 4.2,
-            "flavors": [
-              "Light",
-              "Crisp",
-              "Smooth"
-            ]
-          },
-          "origin": {
-            "nationality": "American"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 23,
-        "details": {
-          "name": "Tsingtao",
-          "attributes": {
-            "type": "Lager",
-            "alcohol": 4.7,
-            "flavors": [
-              "Crisp",
-              "Smooth",
-              "Mild"
-            ]
-          },
-          "origin": {
-            "nationality": "Chinese"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 24,
-        "details": {
-          "name": "Red Stripe",
-          "attributes": {
-            "type": "Lager",
-            "alcohol": 4.7,
-            "flavors": [
-              "Smooth",
-              "Crisp",
-              "Mild"
-            ]
-          },
-          "origin": {
-            "nationality": "Jamaican"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 25,
-        "details": {
-          "name": "Blue Moon Belgian White",
-          "attributes": {
-            "type": "Witbier",
-            "alcohol": 5.4,
-            "flavors": [
-              "Citrus",
-              "Orange Peel",
-              "Smooth"
-            ]
-          },
-          "origin": {
-            "nationality": "American"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 26,
-        "details": {
-          "name": "Foster's",
-          "attributes": {
-            "type": "Lager",
-            "alcohol": 5.0,
-            "flavors": [
-              "Crisp",
-              "Smooth",
-              "Mild"
-            ]
-          },
-          "origin": {
-            "nationality": "Australian"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 27,
-        "details": {
-          "name": "Miller High Life",
-          "attributes": {
-            "type": "Lager",
-            "alcohol": 4.6,
-            "flavors": [
-              "Crisp",
-              "Light",
-              "Smooth"
-            ]
-          },
-          "origin": {
-            "nationality": "American"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 28,
-        "details": {
-          "name": "Amstel Light",
-          "attributes": {
-            "type": "Lager",
-            "alcohol": 3.5,
-            "flavors": [
-              "Crisp",
-              "Light",
-              "Mild"
-            ]
-          },
-          "origin": {
-            "nationality": "Dutch"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 29,
-        "details": {
-          "name": "Duvel",
-          "attributes": {
-            "type": "Belgian Strong Ale",
-            "alcohol": 8.5,
-            "flavors": [
-              "Fruity",
-              "Spicy",
-              "Strong"
-            ]
-          },
-          "origin": {
-            "nationality": "Belgian"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 30,
-        "details": {
-          "name": "Chimay Blue",
-          "attributes": {
-            "type": "Belgian Strong Ale",
-            "alcohol": 9.0,
-            "flavors": [
-              "Dark Fruit",
-              "Spicy",
-              "Rich"
-            ]
-          },
-          "origin": {
-            "nationality": "Belgian"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 31,
-        "details": {
-          "name": "Augustiner Helles",
-          "attributes": {
-            "type": "Helles",
-            "alcohol": 5.2,
-            "flavors": [
-              "Smooth",
-              "Mild",
-              "Malty"
-            ]
-          },
-          "origin": {
-            "nationality": "German"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 32,
-        "details": {
-          "name": "Sapporo Premium",
-          "attributes": {
-            "type": "Lager",
-            "alcohol": 5.0,
-            "flavors": [
-              "Crisp",
-              "Smooth",
-              "Dry"
-            ]
-          },
-          "origin": {
-            "nationality": "Japanese"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 33,
-        "details": {
-          "name": "Anchor Steam Beer",
-          "attributes": {
-            "type": "California Common",
-            "alcohol": 4.9,
-            "flavors": [
-              "Malty",
-              "Smooth",
-              "Crisp"
-            ]
-          },
-          "origin": {
-            "nationality": "American"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 34,
-        "details": {
-          "name": "Brooklyn Lager",
-          "attributes": {
-            "type": "Lager",
-            "alcohol": 5.2,
-            "flavors": [
-              "Malty",
-              "Crisp",
-              "Smooth"
-            ]
-          },
-          "origin": {
-            "nationality": "American"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 35,
-        "details": {
-          "name": "Weihenstephaner Hefeweissbier",
-          "attributes": {
-            "type": "Hefeweizen",
-            "alcohol": 5.4,
-            "flavors": [
-              "Banana",
-              "Clove",
-              "Smooth"
-            ]
-          },
-          "origin": {
-            "nationality": "German"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 36,
-        "details": {
-          "name": "Erdinger Weissbier",
-          "attributes": {
-            "type": "Hefeweizen",
-            "alcohol": 5.3,
-            "flavors": [
-              "Banana",
-              "Yeasty",
-              "Smooth"
-            ]
-          },
-          "origin": {
-            "nationality": "German"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 37,
-        "details": {
-          "name": "Leinenkugel's Summer Shandy",
-          "attributes": {
-            "type": "Shandy",
-            "alcohol": 4.2,
-            "flavors": [
-              "Lemon",
-              "Crisp",
-              "Refreshing"
-            ]
-          },
-          "origin": {
-            "nationality": "American"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 38,
-        "details": {
-          "name": "Spaten Oktoberfest",
-          "attributes": {
-            "type": "Märzen",
-            "alcohol": 5.9,
-            "flavors": [
-              "Malty",
-              "Toasty",
-              "Smooth"
-            ]
-          },
-          "origin": {
-            "nationality": "German"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 39,
-        "details": {
-          "name": "Lagunitas IPA",
-          "attributes": {
-            "type": "IPA",
-            "alcohol": 6.2,
-            "flavors": [
-              "Hoppy",
-              "Citrus",
-              "Pine"
-            ]
-          },
-          "origin": {
-            "nationality": "American"
-          }
-        }
-      }
-    },
-    {
-      "beer": {
-        "id": 40,
-        "details": {
-          "name": "Victory Golden Monkey",
-          "attributes": {
-            "type": "Belgian Tripel",
-            "alcohol": 9.5,
-            "flavors": [
-              "Fruity",
-              "Spicy",
-              "Strong"
-            ]
-          },
-          "origin": {
-            "nationality": "American"
-          }
-        }
+      "id": 5,
+      "name": "Asahi Super Dry",
+      "iloscAlkoholu": 5.2,
+      "subName": "Lager",
+      "skladSmaku": {
+        "suchy": true,
+        "odświeżający": true,
+        "kruchy": true,
+        "smaki": [
+          7
+        ]
       }
     }
+  ],
+  "nutySmakowe": [
+    {
+      "id": 1,
+      "nazwa": "cytrusowy",
+      "numerySmakowe": [
+        {
+          "id": 0,
+          "name": "słodki",
+          "intensywność": "niska"
+        },
+        {
+          "id": 1,
+          "name": "kwaśny",
+          "intensywność": "średnia"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nazwa": "kwiatowy",
+      "numerySmakowe": [
+        {
+          "id": 0,
+          "name": "łagodny",
+          "intensywność": "średnia"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nazwa": "prażony",
+      "numerySmakowe": [
+        {
+          "id": 0,
+          "name": "gorzki",
+          "intensywność": "wysoka"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nazwa": "słodowy",
+      "numerySmakowe": [
+        {
+          "id": 0,
+          "name": "łagodny",
+          "intensywność": "średnia"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nazwa": "trawiasty",
+      "numerySmakowe": [
+        {
+          "id": 0,
+          "name": "lekki",
+          "intensywność": "niska"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nazwa": "owocowy",
+      "numerySmakowe": [
+        {
+          "id": 0,
+          "name": "słodki",
+          "intensywność": "średnia"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "nazwa": "suchy",
+      "numerySmakowe": [
+        {
+          "id": 0,
+          "name": "kruchy",
+          "intensywność": "średnia"
+        }
+      ]
+    }
   ]
-  
+}

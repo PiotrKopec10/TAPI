@@ -1,0 +1,41 @@
+syntax = "proto3";
+
+package beer;
+
+service BeerService {
+  rpc GetBeers (BeerFilterRequest) returns (BeerListResponse);
+  rpc GetBeerById (BeerIdRequest) returns (BeerResponse);
+  rpc AddBeer (AddBeerRequest) returns (BeerResponse);
+}
+
+message Beer {
+  int32 id = 1;
+  string name = 2;
+  string type = 3;
+  double alcohol = 4;
+}
+
+message BeerFilterRequest {
+  string nameContains = 1;
+  string typeContains = 2;
+  double alcoholGreaterThan = 3;
+  double alcoholLessThan = 4;
+}
+
+message BeerIdRequest {
+  int32 id = 1;
+}
+
+message AddBeerRequest {
+  string name = 1;
+  string type = 2;
+  double alcohol = 3;
+}
+
+message BeerResponse {
+  Beer beer = 1;
+}
+
+message BeerListResponse {
+  repeated Beer beers = 1;
+}
